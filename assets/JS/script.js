@@ -2,7 +2,6 @@ var getImagePath = document.getElementsByClassName("showbtn")
 var gettext = document.getElementsByClassName("texttoshow")
 var pTagContents = document.getElementsByTagName("p")
 
-
 function showText(num, textid) {
 
     changeStatus()//function to close ever text other than the one selected
