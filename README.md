@@ -49,7 +49,7 @@ Mobile View:
 
 ### Links
 
-- Live Site URL: <a href="https://hajararifky.github.io/FAQ-Page-Challenge-Building-with-only-a-sketch/">Live Site URL:</a>
+- Live Site URL: <a href="https://hajararifky.github.io/FAQ-Page-Challenge-Building-with-only-a-sketch/">Click here </a>
 
 
 ### Built with
