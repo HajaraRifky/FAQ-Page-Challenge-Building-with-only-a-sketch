@@ -9,7 +9,7 @@ function showText(num, textid) {
 
     const textToChange = document.getElementById(textid);
     textToChange.className = "texttoshow";
-    console.log(getImagePath[num].src == 'assets/images/icon-plus.svg')
+    console.log(getImagePath[num].src )
 
     if (getImagePath[num].src == 'assets/images/icon-plus.svg') {
         getImagePath[num].src = "assets/images/icon-minus.svg"
