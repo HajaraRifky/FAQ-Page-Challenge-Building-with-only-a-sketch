@@ -11,7 +11,8 @@ function showText(num, textid) {
     textToChange.className = "texttoshow";
     console.log(getImagePath[num].src)
 
-    if (getImagePath[num].src == 'assets/images/icon-plus.svg') {
+    if (getImagePath[num].src === 'https://hajararifky.github.io/FAQ-Page-Challenge-Building-with-only-a-sketch/assets/images/icon-plus.svg
+') {
         getImagePath[num].src = "assets/images/icon-minus.svg"
         textToChange.className = "textfromhide";
         pTagContents[num].className = "textfromhide";
