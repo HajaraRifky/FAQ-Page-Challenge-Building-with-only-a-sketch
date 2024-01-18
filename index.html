@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" type="text/css" href="./assets/CSS/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <div id="firstcard">
+    <title>Frontend Mentor | FAQ accordion</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+       margin-bottom: auto;
+        
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <script src="./assets/JS/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <img id="background" class="backgroundimg" src="./assets/images/background-pattern-desktop.svg" >
+  <div class="faqcard">
+    <h1><img src="./assets/images/icon-star.svg" class="staricon">FAQs</h1>
+  <section id="FirstSection">
+  <h3 onclick="showText(0,'text1','firsticon','firstline','FirstSection')">What is Frontend Mentor, and how will it help me?<button onclick="showText(0,'text1','firsticon','firstline','FirstSection')"><img class="showbtn" id="firsticon"  src="./assets/images/icon-plus.svg"></button></h3>
+  
+  <h4 id="text1" class="texttoshow"><p class="inactive" id="firstpara">Frontend Mentor offers realistic coding challenges to help developers improve their
+  frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for
+  all levels and ideal for portfolio building.</p> </h4>
+  <hr class="line" id="firstline">
+</section>
+  <h3 onclick="showText(1,'text2','secondicon','secondline','secondSection')">Is Frontend Mentor free?<button onclick="showText(1,'text2','secondicon','secondline','secondSection')"><img  class="showbtn" id="secondicon" src="./assets/images/icon-plus.svg"></button></h3>
+<section id="secondSection">
+  <h4  id="text2" class="texttoshow"> <p class="inactive" id="secondpara">Yes, Frontend Mentor offers both free and premium coding challenges, with the free
+  option providing access to a range of projects suitable for all skill levels.</p></h4>
+<hr class="line" id="secondline">
+</section>
+<section id="thirdSection">
+  <h3 onclick="showText(2,'text3','thirdicon','thirdline','thirdSection')">Can I use Frontend Mentor projects in my portfolio?<button onclick="showText(2,'text3','thirdicon','thirdline','thirdSection')"><img class="showbtn" id="thirdicon" src="./assets/images/icon-plus.svg"></button></h3>
+
+<h4 id="text3" class="texttoshow"><p class="inactive" id="thirdpara">Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
+  way to showcase your skills to potential employers!</p></h4>
+  <hr class="line" id="thirdline">
+</section>
+<section id="fourthSectiion">
+  <h3 onclick="showText(3,'text4','fourthicon','fourthSectiion')">How can I get help if I'm stuck on a challenge?<button onclick="showText(3,'text4','fourthicon','fourthSectiion')"><img class="showbtn" id="fourthicon" src="./assets/images/icon-plus.svg"></button></h3>
+
+<h4 id="text4" class="texttoshow"><p class="inactive" id="fourthpara"> best place to get help is inside Frontend Mentor's Discord community. There's a help
+  channel where you can ask questions and seek support from other community members.</p></h4>
+</div>
+</section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Hajara Mohamed Rifky</a>.
+  </div>
+
+</body>
+
+</html>

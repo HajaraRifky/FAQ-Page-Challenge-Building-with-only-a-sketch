@@ -1,0 +1,182 @@
+#firstcard {
+    position: fixed;
+    margin-block-start: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 95%;
+    height: 90%;
+
+    background-color: hsl(275, 100%, 97%);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.27);
+
+}
+
+button {
+    background-color: transparent;
+    border-color: transparent;
+    overflow: hidden;
+
+    float: right;
+    margin-top: -0.8vh;
+
+
+}
+
+.line {
+    border-top: 0.5px solid rgba(218, 218, 218, 0.402);
+    width: 97%;
+    margin-left: 0.2vh;
+}
+
+.showbtn {
+    width: 20px;
+    float: right;
+    position: sticky;
+
+}
+
+.staricon {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-right: 5%;
+    height: 1.5rem;
+ 
+    
+}
+
+h1 {
+    text-align: left;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+        font-weight: bolder;
+    color: hsl(291, 27%, 25%);
+   
+    font-size: 34px;
+
+
+}
+
+.work-sans-fonts {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+}
+
+h3,
+h4 {
+    font-size: 13.5px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 50px;
+    font-style: normal;
+    color: hsl(291, 27%, 25%);
+}
+
+.backgroundimg {
+    width: 100%;
+    position: absolute;
+
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(//assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: WorkSansItalic;
+    src: url(//assets/fonts/WorkSans-Italic-VariableFont_wght.ttf);
+}
+
+.texttoshow {
+    font-size: 0px;
+    color: transparent;
+    overflow: hidden;
+}
+
+.textfromhide{
+    font-size: 13px;
+    font-family: "Work Sans",sans-serif;
+    font-size: 10px;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style:normal;
+    color: hsla(291, 22%, 47%, 0.48);
+}
+.faqcard {
+    position: sticky;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    margin: 2% 28% 2% 28%;
+    padding-left: 0.3in;
+    margin-top: 8%;
+    padding-top: 1vh;
+    padding-bottom: 0.2in;
+    padding-right: 0.2in;
+
+
+}
+
+h3:hover{
+    cursor: pointer ;
+  
+    color: hsl(286, 70%, 63%);
+  }
+
+@media only screen and (max-width: 375px) {
+    .backgroundimg  {
+       margin-left: -70%;
+       position: absolute;
+       width:250%;
+       margin-top: -20%;
+    }
+    h1{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .staricon {
+        margin-left: 1%;
+        margin-right: 5%;
+        height: 1.5rem;
+        padding-left: -3%;
+    }
+
+    .faqcard {
+        position: sticky;
+        background-color: white;
+        border-radius: 5px 5px 0 0;
+        margin: 2% 28% 2% 28%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20%;
+        margin-bottom: 10px;
+        padding-left: 0.3in;
+     
+        padding-bottom: 0.2in;
+        padding-right: 0.2in;
+    
+    
+    }
+    body{
+        background-color: hsl(275, 100%, 97%);
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.27);
+    
+    }
+    #firstcard {
+        position: fixed;
+        margin-block-start: 20px;
+        margin-bottom: 20px;
+        margin-left: -2px;
+        width: 95%;
+        height: 90%;
+    
+        background-color: hsl(275, 100%, 97%);
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0);
+    
+    }
+   
+  }
