@@ -10,7 +10,7 @@ function showText(num, textid) {
     const textToChange = document.getElementById(textid);
     textToChange.className = "texttoshow";
 
-    if (getImagePath[num].src === 'assets/images/icon-plus.svg') {
+    if (getImagePath[num].src == 'assets/images/icon-plus.svg') {
         getImagePath[num].src = "assets/images/icon-minus.svg"
         textToChange.className = "textfromhide";
         pTagContents[num].className = "textfromhide";
