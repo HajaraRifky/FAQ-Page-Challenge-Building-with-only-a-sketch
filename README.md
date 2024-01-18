@@ -49,8 +49,7 @@ Mobile View:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://hajararifky.github.io/FAQ-Page-Challenge-Building-with-only-a-sketch/))
 
 
 ### Built with
