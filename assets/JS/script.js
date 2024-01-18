@@ -17,8 +17,6 @@ function showText(num, textid) {
 
     }
 
-
-
 }
 
 function changeStatus() {
